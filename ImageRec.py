@@ -1,6 +1,6 @@
 import streamlit as st
-from models.gemini import analyze_with_gemini
 from models.openai_helper import analyze_with_openai
+from models.gemini import analyze_with_gemini
 from models.anthropic_helper import analyze_with_anthropic
 
 
