@@ -1,5 +1,5 @@
-from google import genai
-from google.genai import types
+import google.genai as genai
+import google.genai.types as types
 from PIL import Image
 from io import BytesIO
 
